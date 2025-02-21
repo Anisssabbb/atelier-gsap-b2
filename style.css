@@ -1,0 +1,57 @@
+/* Style de base */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #1a1a1a;  /* Fond noir foncé */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Conteneur principal */
+.section-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Style des sections */
+.section {
+    background-color: #2d243b;  /* Violet foncé */
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Titres */
+h2 {
+    color: #c4a4d1;  /* Violet clair */
+    margin-bottom: 20px;
+}
+
+/* Paragraphes */
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Images */
+.section-image img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Version desktop (écrans plus grands que 768px) */
+@media (min-width: 768px) {
+    .section {
+        display: flex;
+        gap: 30px;
+    }
+
+    .section-content {
+        width: 50%;
+    }
+
+    .section-image {
+        width: 50%;
+    }
+}

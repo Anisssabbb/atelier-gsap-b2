@@ -1,30 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <!--Stylesheet-->
-    <link rel="stylesheet" href="styles.css">
-
+    <title>Coraline - Le Film</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="section-container">
+        <!-- Section 1: Introduction -->
+        <section id="histoire" class="section">
+            <div class="section-content">
+                <h2>L'Histoire</h2>
+                <p>Coraline Jones, une jeune fille curieuse, emménage avec ses parents dans une vieille maison. Peu de temps après son arrivée, elle découvre un mystérieux passage qui mène à un autre monde, semblable au sien mais bien plus étrange...</p>
+            </div>
+            <div class="section-image">
+                <img src="asset/img/photo 1.jpg" alt="Coraline découvrant la porte">
+            </div>
+        </section>
 
-<h1 id="demo">Demo</h1>
-    
+        <!-- Section 2: Les Personnages -->
+        <section id="personnages" class="section">
+            <div class="section-content">    
+                <h2>Les Personnages</h2>
+                <p>Coraline est une jeune fille audacieuse et curieuse, qui explore un monde parallèle pour découvrir ses secrets. Ses Autres Parents sont des versions manipulatrices et malveillantes de ses vrais parents, cherchant à la garder avec eux. Le Chat Noir, qui peut se déplacer entre les mondes, aide Coraline à naviguer et à comprendre les dangers. Wybie, un garçon du monde réel, est un allié de Coraline, lui offrant son soutien. Enfin, la Sorcière de l'Autre Monde est la figure maléfique qui cherche à piéger Coraline et à voler son âme.</p>
+            </div>
+            <div  id="merecoraline" class="section-image">
+                <img class="merecoraline" src="asset/img/Photo 2.jpg" alt="Les personnages principaux">
+            </div>
+        </section>
 
-<!--javascript and GSAP----------------------->
-<!--gsap-->
-<script  src="js/gsap.min.js"></script>
-<!--Gsap Module-->
-<script src="js/ScrollToPlugin.min.js"></script>
-<script src="js/ScrollTrigger.min.js"></script>
-<script src="js/MotionPathPlugin.min.js"></script>
-<script src="js/Draggable.min.js"></script>
+         <!-- Section 3: jsp et du coup  je parle de la solitude et l'évasion -->
+         <section id="La Solitude et l'Évasion" class="section">
+            <div class="section-content">
+                <h2>La Solitude et l'Évasion.</h2>
+                <p>Coraline crée une atmosphère unique grâce à ses contrastes marqués entre le monde réel et le monde parallèle. Le monde réel, terne et peu accueillant, reflète l'ennui et la solitude de Coraline. En revanche, l'Autre Monde semble d'abord plus vivant et coloré, mais il est rapidement dévoilé comme un lieu inquiétant, presque irréel.</p>
+            </div>
+            <div class="section-image">
+                <img src="asset/img/coraline.jpg" alt="Les personnages principaux">
+            </div>
+        </section>
 
-<!-- Custom JS-->
-<script  src="js/main.js"></script>
 
+    </div>
+
+    <!-- JavaScript and GSAP --------------------------------- -->
+    <!-- GSAP -->
+    <script src="js/gsap.min.js"></script>
+    <!-- GSAP Module -->
+    <script src="js/ScrollToPlugin.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/MotionPathPlugin.min.js"></script>
+    <script src="js/Draggable.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
